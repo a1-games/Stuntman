@@ -9,6 +9,7 @@ public class Stuntman : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Stuntman" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
