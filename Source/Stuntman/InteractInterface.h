@@ -24,10 +24,4 @@ class STUNTMAN_API IInteractInterface
 public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "InteractableInterface")
 		void Interact(ACharacter* CallingCharacter);
-
-	UPROPERTY(BlueprintNativeEvent, BlueprintCallable, Category = "InteractableInterface")
-		float health = 100.0f;
-
-	UPROPERTY(BlueprintNativeEvent, BlueprintCallable, Category = "InteractableInterface")
-		float maxhealth = 100.0f;
 };
